@@ -65,3 +65,128 @@ nav ul li a:hover{
     transform: translateY(-50%);
 
 }
+h2{
+    color: chocolate;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+
+}
+h3{
+    color: chocolate;
+    font-size: 25px;
+    margin-bottom: 50px;
+
+}
+h4{
+    color: chocolate;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border:2px solid brown;
+    outline: none;
+    border-radius: 30px;
+
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: brown;
+    color: aliceblue;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+.about{
+    width: 100%;
+    padding: 90px 0px;
+    background-color: whitesmoke;
+}
+.about img{
+    height: auto;
+    width: 500px;
+    padding: 70px;
+    border-radius :80%;
+    width: auto;
+    height: 600px;
+    background-size: cover;    
+}
+img:hover{
+    background-color:gray;
+    border: 2px solid black;
+    border-width: auto;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1)x;
+    display: inline-block;
+    padding: 10px 50px;
+    background: darkslategrey;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 800;
+    transition: all 1.5s ease;
+    
+}
+.about-text{
+    width: 550px;
+
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.about-text h2{
+    color:#858585;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+.about-text h5{
+    color: #858585;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: chocolate;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: dashed;
+    border: 2px solid transparent;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: .3s;
+}
+button:hover{
+     background-color: black;
+     border: 2px solid red;
+     cursor: pointer;
+}
