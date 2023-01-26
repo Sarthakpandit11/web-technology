@@ -114,15 +114,18 @@ h4{
     width: 100%;
     padding: 90px 0px;
     background-color: whitesmoke;
+    
+
 }
 .about img{
     height: auto;
     width: 500px;
     padding: 70px;
-    border-radius :80%;
+    border-radius :20%;
     width: auto;
     height: 600px;
-    background-size: cover;    
+    background-size: cover; 
+
 }
 img:hover{
     background-color:gray;
@@ -131,7 +134,7 @@ img:hover{
     animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1)x;
     display: inline-block;
     padding: 10px 50px;
-    background: darkslategrey;
+    background: darkslategray;
     border-radius: 30px;
     text-decoration: none;
     color: black;
@@ -152,6 +155,7 @@ img:hover{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-image: url(sky.jpg);
 
 }
 .about-text h2{
@@ -159,7 +163,7 @@ img:hover{
     font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 20px;
-
+    padding-inline: 70px;
 }
 .about-text h5{
     color: #858585;
@@ -167,26 +171,108 @@ img:hover{
     font-size: 22px;
     margin-bottom: 25px;
     text-transform: capitalize;
+    padding-inline: 70px;
+    padding-bottom: 10px;
 }
 .about-text p{
     color: chocolate;
     letter-spacing: 1px;
-    line-height: 28px;
+    line-height: 30px;
     font-size: 18px;
     margin-bottom: 45px;
+    padding-inline: 70px;
 }
 button{
     background-color: #f9004d;
     color: white;
-    text-decoration: dashed;
+    text-decoration: none;
     border: 2px solid transparent;
-    padding: 10px 30px;
+    padding: 13px 30px;
     font-weight: bold;
     border-radius: 30px;
     transition: .3s;
 }
 button:hover{
      background-color: black;
+     border: 2px solid red;
+     cursor: pointer;
+
+}
+.about-text h1{
+    color: chocolate;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-inline: 70px;
+}
+.skills{
+    background: #101010;
+    width: 100%;
+    padding: 100px 100px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #18b3e6;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px; 
+}
+ .button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 9px 22px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: .3s;
+}
+.button:hover{
+    background-color: black;
+     border: 2px solid red;
+     cursor: pointer;
+}
+.contact{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact p{
+    color: azure;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+
+
+}
+.button-two{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 9px 22px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: .3s;
+
+}
+.button-two:hover{
+    background-color: black;
      border: 2px solid red;
      cursor: pointer;
 }
